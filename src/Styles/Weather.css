@@ -1,0 +1,160 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+.app-bg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+	object-position: 60%;
+    opacity: 0.5;
+}
+.search{
+    position: absolute;
+    font-size: 3vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: black;
+    opacity: .8;
+    border: none;
+    border-radius: 20px;
+    padding: 1vw 1vw 1vw 3vw;
+    width: 80%;
+    top: 5%;
+    left: 8%;
+    box-shadow: 3px 3px 3px 3px rgb(87, 85, 85);
+}
+.picture{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+::placeholder{
+    color: rgb(0, 0, 0.25);
+}
+.city-name{
+    position: absolute;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3vw;
+    width: 60%;
+    top: 10%;
+    left: 16.5%;
+    display: flex;
+    justify-content: center;
+}
+.temperature{
+    position: absolute;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 5vw;
+    width: 20%;
+    padding-left: 7vw;
+    top: 25%;
+    left: 33.5%;
+    border: solid 2px;
+    border-color: rgb(70, 141, 233);
+    border-radius: 20px;
+    background-color: #0000002d;
+    box-shadow: 0 0 .175em rgb(87, 85, 85);
+}
+.min-temperature{
+    position: absolute;
+    color: rgb(90, 110, 153);
+    font-size: 1.5vw;
+    left: 60%;
+    top: 0%;
+}
+.max-temperature{
+    position: absolute;
+    color: #f32c094b;
+    font-size: 1.5vw;
+    left: 80%;
+    top: 0%;
+}
+
+.weather{
+    position: absolute;
+    color: #af4633;
+    left: 73%;
+    font-size: 5vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    top: 43%;
+}
+.feelsLike{
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    left: 10%;
+    top: 40%;
+}
+.feelsLike-p-1{
+    position: relative;
+    left: 13%;
+    font-size: 1.5vw;
+    color: #2B4C59;
+}
+.feelsLike-p-2{
+    position: absolute;
+    top: 20%;
+    padding: 2vw;
+    font-size: 2.5vw;
+    border-radius: 20px;
+    border: solid 1px;
+    border-color: black;
+    background-color: #0000002d;
+    box-shadow: 0 0 .175em rgb(87, 85, 85);
+}
+.humidity-and-windSpeed{
+    position: absolute;
+    color: white;
+    font-size: 1.5vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    left: 31.5%;
+    top: 75%;
+    border: solid 2px;
+    border-color: blue;
+    border-radius: 20px;
+    background-color: #0000009d;
+    box-shadow: 0 0 .175em rgb(87, 85, 85);
+}
+.wind-speed{
+    position: relative;
+    margin-left: 20vw;
+    margin-right: 1vw;
+    margin-top: -10.25vw;
+}
+.humidity{
+    position: relative;
+    padding-left: 2.5vw;
+}
+.humidity-number{
+    position: relative;
+    font-size: 2.5vw;
+    padding-left: 2vw;
+    color: #4e81da;
+    left: -5%;
+}
+.wind-speed-number{
+    position: relative;
+    font-size: 2.5vw;
+    padding-left: 2vw;
+    color: #4AB4De;
+    margin-top: 2.4vw;
+    right: 20%;
+}
+
+.search-start{
+    position: absolute;
+    font-size: 3vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: black;
+    opacity: .8;
+    border: none;
+    border-radius: 20px;
+    padding: 1vw 1vw 1vw 3vw;
+    width: 80%;
+    top: 40%;
+    left: 8%;
+    box-shadow: 3px 3px 3px 3px rgb(87, 85, 85);
+}
