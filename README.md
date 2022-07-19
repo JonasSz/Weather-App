@@ -1,6 +1,6 @@
 # Weather App
 
-This is my first weather app 
+This is just a little weather app.
 
 
 
